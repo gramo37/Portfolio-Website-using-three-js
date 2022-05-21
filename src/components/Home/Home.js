@@ -291,35 +291,50 @@ const Home = () => {
           <MyTimeline timelines={
             [
               {
-                date: "05/05/2022",
-                title: "Tic-Tac-Toe",
-                description: "Made my first pull request and added a audio volume control funtionality for a tic-tac-toe game."
+                date: "Apr 2022",
+                title: "Building a real world project in collaboration with a linkedIn friend",
+                description: "Working on a Resume Builder for freshers as well as experienced professionals, were in after filling up some basic details and selecting a resume template, a scannable resume pdf will be generated on a click!"
               },
               {
-                date: "20/04/2022",
-                title: "Online Exam Portal",
-                description: "A Online Portal Where Teachers can conduct MCQ Exam for their students."
+                date: "Apr 2022",
+                title: "Upskilling Further",
+                description: "Started working on Data Structures and algorithms, high level design and low level design skills."
               },
               {
-                date: "01/04/2022",
-                title: "Todos List",
-                description: "A todosList where one can store his notes for the day. This project has a added feature of OTP signup and Password Reset Functionality."
+                date: "Mar 2022",
+                title: "Created Backend Projects",
+                description: "Built an Online Examination Portal where in teachers can create and conduct Multiple Choice Questions (MCQ) exams for their students and also calculate their scores. After calculation, the scores are sent to students via mail and they can also check it on the website."
               },
               {
-                date: "01/03/2022",
-                title: "Facebook Clone",
-                description: "A Facebook Clone using MongoDB, Express and Node for backend and react and redux for the frontend."
+                date: "Feb 2022",
+                title: "Exploring Backend",
+                description: "Started to learn about Backend. Started to learn NodeJs, ExpressJs and MongoDB. Created an Ecommerce website using the MERN stack (MongoDB, Express, React and Node)."
               },
               {
-                date: "01/02/2022",
-                title: "LinkedIn Clone",
-                description: "Created a LinkedClone using React, tailwind CSS, redux and firebase."
+                date: "Dec 2021",
+                title: "Creating projects",
+                description: "Created 2 projects facebook clone and LinkedIn clone, using the knowledge learned in past 2-3 months."
               },
               {
-                date: "01/01/2022",
-                title: "LinkedIn Clone",
-                description: "Created a LinkedClone using React, tailwind CSS, redux and firebase."
+                date: "Oct 2021",
+                title: "Deep dive into Web Development.",
+                description: "The training at TCS made me more interested into Web development and I started learning about Tailwind CSS (a CSS framework), bootstrap and React (a frontend framework for single page applications)"
               },
+              {
+                date: "Aug 2021",
+                title: "Training period at TCS.",
+                description: "Started Learning about Web Development as a part of training at TCS, built several websites as a part of training using HTML, CSS and Javascript."
+              },
+              {
+                date: "July 2021",
+                title: "Joined Tata Consultancy Services Ltd",
+                description: "Started Working as Assistant System Engineer at TCS a global leader in IT services, consulting & business solutions."
+              },
+              {
+                date: "May 2021",
+                title: "Completed Graduation",
+                description: "Completed My Graduation From Pune Vidyaarthi griha's college of engineering with 8.84 CGPA."
+              }
             ]
           } />
           <Link to="/projects"><button className='projects-btn2'>VIEW PROJECTS</button></Link>
