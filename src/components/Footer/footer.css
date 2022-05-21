@@ -1,0 +1,78 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+/* font-family: 'Roboto Mono', monospace; */
+  }
+  
+  .about-me-heading {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
+    font-size: 1.6rem;
+    width: fit-content;
+    margin: 15px 0px;
+  }
+  
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* height: 230px; */
+    justify-content: center;
+    align-items: left;
+  }
+  
+  .contact-me-btn {
+    margin: 20px 0px;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    font-weight: 900;
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    transition: all 0.5s;
+    outline: none;
+    border: none;
+  }
+  
+  .contact-me-btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-shadow: 2px;
+  }
+  
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media > div > div {
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  
+  .social-media-inner-box > a > svg {
+    font-size: 4vmax;
+    margin: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .social-media > div > div:hover {
+    transform: scale(1.5);
+  }

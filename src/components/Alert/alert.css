@@ -1,0 +1,41 @@
+.alert-container {
+    /* width: 240px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(83, 83, 83); */
+    background-color: aliceblue;
+    align-items: center;
+    min-height: 45px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 20px;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.alert-container > div {
+    margin: 0px 10px;
+}
+
+.alert-message {
+    font-size: 1.5rem;
+}
+
+.alert-color-success {
+    color: green
+}
+
+.alert-color-danger {
+    color: red
+}
+
+.alert-border-danger {
+    border: 2px solid red;
+}
+
+.alert-border-success {
+    border: 2px solid green;
+}
