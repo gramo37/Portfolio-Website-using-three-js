@@ -203,7 +203,7 @@ const Home = () => {
       const contactMeForm = document.getElementById("contact-me-form");
       console.log(window.scrollY, window.innerWidth, (window.scrollY / window.innerWidth))
       if (window.innerWidth > 1000) {
-        if (window.scrollY > 1600 && window.scrollY < 3000) {
+        if (window.scrollY > 1600 && window.scrollY < 3800) {
           // skillsBox.style.animationName = "homeskillsBoxAnimationOn";
           skillsBox.style.right = "0px";
           homeCubeSkills.style.left = "0px"
@@ -218,7 +218,7 @@ const Home = () => {
         } else {
           contactMeForm.style.top = "1000px"
         }
-      } else if (window.innerWidth > 450) {
+      } else if (window.innerWidth > 800) {
         if (window.scrollY > 1800 && window.scrollY < 3200) {
           // skillsBox.style.animationName = "homeskillsBoxAnimationOn";
           skillsBox.style.right = "0px";
@@ -235,21 +235,9 @@ const Home = () => {
           contactMeForm.style.top = "1000px"
         }
       } else {
-        if (window.scrollY > 2400 && window.scrollY < 3400) {
-          // skillsBox.style.animationName = "homeskillsBoxAnimationOn";
-          skillsBox.style.right = "0px";
-          homeCubeSkills.style.left = "0px"
-
-        } else {
-          // skillsBox.style.animationName = "homeskillsBoxAnimationOff";
-          skillsBox.style.right = "-300px";
-          homeCubeSkills.style.left = "-1000px"
-        }
-        if (window.scrollY > 3200) {
-          contactMeForm.style.top = "0px"
-        } else {
-          contactMeForm.style.top = "1000px"
-        }
+        skillsBox.style.right = "0px";
+        homeCubeSkills.style.left = "0px"
+        contactMeForm.style.top = "0px"
       }
     });
 

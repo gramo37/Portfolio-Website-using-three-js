@@ -16,7 +16,7 @@ const Project = () => {
         title: "Online Exam Portal",
         desc: "An Online Examination Portal where in teachers can create and conduct Multiple Choice Questions (MCQ) exams for their students and also calculate their scores. After calculation, the scores are sent to students via mail and they can also check it on the website.",
         tech: "HTML, CSS, TailwindCSS, React, Mongo DB, Node, Express, AWS.",
-        demo: "http://54.147.132.26/"
+        demo: "https://online-examination-portal.netlify.app"
     }, {
         alignment: "right",
         image: image2,
@@ -34,7 +34,7 @@ const Project = () => {
         demo: "https://comforting-dango-6a9291.netlify.app"
     },
     {
-        alignment: "left",
+        alignment: "right",
         image: image5,
         title: "Age Calculator",
         desc: "An Age Calculator that calculates exact age in seconds!",
